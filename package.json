@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test:unit": "vitest",
-    "test:ui": "playwright test"
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +12,7 @@
   "devDependencies": {
     "@playwright/test": "^1.48.2",
     "@types/node": "^22.8.3",
+    "@vitest/coverage-v8": "^2.1.4",
     "vitest": "^2.1.4"
   }
 }
