@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "test:unit": "vitest --run --dir ./unit-tests",
+    "test:e2e": "playwright test"
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -13,6 +16,9 @@
     "@playwright/test": "^1.48.2",
     "@types/node": "^22.8.3",
     "@vitest/coverage-v8": "^2.1.4",
-    "vitest": "^2.1.4"
+    "vitest": "^2.1.5"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
   }
 }
